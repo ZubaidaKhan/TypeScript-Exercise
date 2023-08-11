@@ -2,5 +2,5 @@
 // Then compose your message and store it in a new variable called message. 
 //Print your message.
 let famus_person:string="Albert Einstein";
-let message:string = famus_person + 'once said, “A person who never made a mistake never tried anything new.”';
-console.log(message);
+let messages:string = famus_person + 'once said, “A person who never made a mistake never tried anything new.”';
+console.log(messages);
