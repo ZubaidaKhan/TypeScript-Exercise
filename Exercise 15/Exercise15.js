@@ -1,3 +1,4 @@
+"use strict";
 /*Changing Guest List: You just heard that one of your guests can’t make the dinner,
  so you need to send out a new set of invitations.
 You’ll have to think of someone else to invite.
@@ -8,7 +9,10 @@ stating the name of the guest who can’t make it.
 new person you are inviting.
 
 • Print a second set of invitation messages, one for each person who is still in your list.*/
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GuestList = void 0;
 var GuestList = ["Zubaida", "Romail", "Adan"];
+exports.GuestList = GuestList;
 //step 1 the person who can't make it
 var GuestWhoCantMake = "Romail";
 console.log("".concat(GuestWhoCantMake, "can't make it to dinner"));

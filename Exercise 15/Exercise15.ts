@@ -37,7 +37,7 @@ GuestList.forEach((Guest:string)=>
     
 }
 )
-
+export{GuestList}
 
 
 
